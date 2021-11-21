@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+    <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+    <link rel="stylesheet" href="master.css">
+    <script src="script.js" defer></script>
+    <title>Frontend Mentor | Calculator app</title>
+  </head>
+    <div class="calculator">
+      <div class="section-1"> <!--The Section One for the Logo and Themes Changer-->
+        <span class="logo">calc</span>
+        <div class="theme-controller"> <!--The Theme Changer Container-->
+          <span>THEME</span>
+          <div class="box-button">
+            <div class="nums"><span>1</span><span>2</span><span>3</span></div>
+            <div class="button"><span class="ball"></span></div>
+          </div>
+        </div>
+      </div>
+      <!--...................................-->
+      <div class="section-2"><span id="result"></span></div> <!--The Section Two for The Screen-->
+      <!--...................................-->
+      <div class="section-3"><!--The Section Three for the Buttons-->
+
+        <!--******-->
+        <span class="button" data-num="7">7</span>
+        <span class="button" data-num="8">8</span>
+        <span class="button" data-num="9">9</span>
+        <span class="button del" id="delButton">DEL</span>
+         <!--******-->
+         <span class="button" data-num="4">4</span>
+         <span class="button" data-num="5">5</span>
+         <span class="button" data-num="6">6</span>
+         <span class="button" data-ope="+">+</span>
+          <!--******-->
+         <span class="button" data-num="1">1</span>
+         <span class="button" data-num="2">2</span>
+         <span class="button" data-num="3">3</span>
+         <span class="button" data-ope="-">-</span> 
+         <!--******-->
+         <span class="button" data-num=".">.</span>
+         <span class="button" data-num="0">0</span>
+         <span class="button" data-ope="/">/</span>
+         <span class="button" data-ope="*">×</span>
+          <!--******-->
+        <span class="button reset" id="resetButton">RESET</span>
+        <span class="button equal" id="equalButton">=</span>
+
+      </div> 
+    </div>
+  </body>
+</html>
